@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Crea un documento XML que contenga información sobre un libro. Crea el XSD asociado que valide
+que el XML contiene los siguientes elementos:
+o Título(obligatorio, no se puede repetir y debe contener menos de 30 caracteres)
+o Escritores (obligatorio y pueden haber uno o más)
+o Ediciones (un atributo obligatorio, ha de ser un valor numérico)
+o Publicación (obligatorio, único y debe de contener un formato fecha)
+o Género(obligatorio, múltiple y solo puede ser: “fantástico”, “histórico”, “terror”, “thriller” o
+”humor”)-->
+
+<libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="libro.xsd">
+    <titulo edicion="1">El señor de los anillos</titulo>
+    <escritores>
+        <escritor>JRR Tolkien</escritor>
+    </escritores>
+    <publicacion>29-06-1954</publicacion>
+    <generos>
+        <genero>Fantastico</genero>
+    </generos>
+</libro>
