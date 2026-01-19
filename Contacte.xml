@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE contactes SYSTEM "contacte.dtd">
+<!-- <!DOCTYPE contactes SYSTEM "contacte.dtd"> -->
 
-<contactes>
+<contactes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="contacte.xsd">
     <contacte ordre="1" familiar="Sí">
         <nom>Julia</nom>
-        <edat>22 anys</edat>
+        <edat>22</edat>
         <cognoms>
             <cognom ordre="1">Martínez</cognom>
             <cognom ordre="2">Sanchéz</cognom>
@@ -25,7 +26,7 @@
     </contacte>
     <contacte ordre="2" familiar="No">
         <nom>Dani</nom>
-        <edat>28 anys</edat>
+        <edat>28</edat>
         <cognoms>
             <cognom ordre="1">Rodríguez</cognom>
             <cognom ordre="2">Nogal</cognom>
