@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contactes SYSTEM "contacte.dtd">
+
+<contactes>
+    <contacte ordre="1" familiar="Sí">
+        <nom>Julia</nom>
+        <edat>22 anys</edat>
+        <cognoms>
+            <cognom ordre="1">Martínez</cognom>
+            <cognom ordre="2">Sanchéz</cognom>
+        </cognoms>
+        <telèfons>
+            <fix>934048503</fix>
+            <mòbil>6392649502</mòbil>
+        </telèfons>
+        <direcció principal="Sí">
+            <carrer>Hospital</carrer>
+            <número>53</número>
+            <pis>1ra</pis>
+            <porta>3ra</porta>
+            <cp>08010</cp>
+            <ciutat>Barcelona</ciutat>
+        </direcció>
+        <email>julia@gmail.con</email>
+    </contacte>
+    <contacte ordre="2" familiar="No">
+        <nom>Dani</nom>
+        <edat>28 anys</edat>
+        <cognoms>
+            <cognom ordre="1">Rodríguez</cognom>
+            <cognom ordre="2">Nogal</cognom>
+        </cognoms>
+        <telèfons>
+            <fix>935720572</fix>
+            <mòbil>639642078</mòbil>
+        </telèfons>
+        <direcció principal="No">
+            <carrer>Pelai</carrer>
+            <número>8</número>
+            <pis>2nd</pis>
+            <porta>3ra</porta>
+            <cp>08008</cp>
+            <ciutat>Barcelona</ciutat>
+        </direcció>
+        <email>nogal@gmail.con</email>
+    </contacte>
+</contactes>
+
+ 
