@@ -11,12 +11,14 @@ o Género(obligatorio, múltiple y solo puede ser: “fantástico”, “histór
 
 <libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="libro.xsd">
-    <titulo edicion="1">El señor de los anillos</titulo>
+    <titulo edicion="15">El señor de los anillos</titulo>
     <escritores>
         <escritor>JRR Tolkien</escritor>
     </escritores>
-    <publicacion>29-06-1954</publicacion>
+    <publicacion>1954-06-29</publicacion>
     <generos>
         <genero>Fantastico</genero>
+        <genero>Aventura</genero>
+        <genero>Romance</genero>
     </generos>
 </libro>
