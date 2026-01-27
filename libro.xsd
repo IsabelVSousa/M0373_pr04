@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="libro">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="titulo"></xs:element>
-                <xs:element name="escritores">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="escritor"></xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name="publicacion"></xs:element>
-                <xs:element name="generos">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="genero"></xs:element>
-                            <xs:element name="genero"></xs:element>
-                            <xs:element name="genero"></xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="libro"></xs:element>
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="titulo">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="edicion" type="xs:integer" />
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="escritores">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="escritor" type="xs:string" maxOccurs="unbounded" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="publicacion"></xs:element>
+            <xs:element name="generos">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="genero" type="xs:string" maxOccurs="unbounded" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>
 
 
-<xs:attribute name= “marca" use=" required">
-<xs:simpleType>
-<xs:restriction base=" xs:string">
-<xs:enumeration value=" Audi"/>
-</xs:restriction>
-</xs:simpleType>
-</xs:attribute>
+<!-- 
 
-<!-- revisar si cuando hay varios elementos, se hace asi -->
+ -->
