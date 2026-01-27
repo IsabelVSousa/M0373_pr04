@@ -26,4 +26,13 @@
     </xs:element>
 </xs:schema>
 
+
+<xs:attribute name= “marca" use=" required">
+<xs:simpleType>
+<xs:restriction base=" xs:string">
+<xs:enumeration value=" Audi"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:attribute>
+
 <!-- revisar si cuando hay varios elementos, se hace asi -->
