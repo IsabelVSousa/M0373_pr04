@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Mínimo dos grupos de música. De cada grupo de música:
+▪ Nombre: (obligatorio y no se puede repetir. Entre 5 y 25 caracteres)
+▪ Género: (sus valores solo pueden ser: “rap”, “pop”, “folk”) (obligatorio y puede
+haber cero o más.)
+▪ Medios de contacto:
+• Email (opcional y puede haber cero o más)
+• Facebook (opcional y solo uno)
+• Instagram (opcional y solo uno)
+• Twitter (opcional y solo uno)
+▪ Web oficial: (opcional y solo puede haber una formada por un mínimo de 20
+caracteres)
+▪ Mínimo un integrante. De cada integrante:
+• Un atributo obligatorio de nombre “función” principal que solo puede
+ser: “vocalista”, “bajo”,” batería”.
+• Edad (un número entre 5 y 150, único y que no se puede repetir)
+• Nombre: (un texto entre 2 y 30 caracteres, único y no se puede repetir) -->

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <!DOCTYPE contactes SYSTEM "contacte.dtd"> -->
 
-<contactes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="contacte.xsd">
+<!-- <contactes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="contacte.xsd"> -->
+<contactes>
     <contacte ordre="1" familiar="Sí">
         <nom>Julia</nom>
         <edat>22</edat>
