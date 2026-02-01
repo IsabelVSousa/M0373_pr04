@@ -16,3 +16,64 @@ caracteres)
 ser: “vocalista”, “bajo”,” batería”.
 • Edad (un número entre 5 y 150, único y que no se puede repetir)
 • Nombre: (un texto entre 2 y 30 caracteres, único y no se puede repetir) -->
+
+<gruposMusica>
+    <grupo>
+        <nombre>Coldplay</nombre>
+        <genero>pop</genero>
+        <redeSociales>
+            <email>coldplay@gmail.com</email>
+            <facebook>ColdplayOficial</facebook>
+            <instagram>Coldplay</instagram>
+            <twitter>ColdplayOficial</twitter>
+            <web>https://www.coldplay.com/official</web>
+        </redeSociales>
+        <integrantes>
+            <integrante funcion="vocalista">
+                <nombre>Chris Martin</nombre>
+                <edad>47</edad>
+            </integrante>
+            <integrante funcion="bajo">
+                <nombre>Guy Berryman</nombre>
+                <edad>46</edad>
+            </integrante>
+            <integrante funcion="batería">
+                <nombre>Will Champion</nombre>
+                <edad>44</edad>
+            </integrante>
+            <integrante funcion="bajo">
+                <nombre>Jonny Buckland</nombre>
+                <edad>42</edad>
+            </integrante>
+        </integrantes>
+    </grupo>
+    <grupo>
+        <nombre>Imagine Dragons</nombre>
+        <genero>pop</genero>
+        <redeSociales>
+            <email>imaginedragons@gmail.com</email>
+            <facebook>ImagineDragonsOficial</facebook>
+            <instagram>ImagineDragons</instagram>
+            <twitter>ImagineDragonsOficial</twitter>
+            <web>https://www.imaginedragons.com/official</web>
+        </redeSociales>
+        <integrantes>
+            <integrante funcion="vocalista">
+                <nombre>Dan Reynolds</nombre>
+                <edad>39</edad>
+            </integrante>
+            <integrante funcion="bajo">
+                <nombre>Ben McKee</nombre>
+                <edad>37</edad>
+            </integrante>
+            <integrante funcion="batería">
+                <nombre>Daniel Platzman</nombre>
+                <edad>35</edad>
+            </integrante>
+            <integrante funcion="bajo">
+                <nombre>Wayne Sermon</nombre>
+                <edad>33</edad>
+            </integrante>
+        </integrantes>
+    </grupo>
+</gruposMusica>
