@@ -16,7 +16,7 @@
                             </xs:element>
                             <xs:element name="genero" minOccurs="0" maxOccurs="unbounded">
                                 <xs:simpleType>
-                                    <xs:restriction>
+                                    <xs:restriction base="xs:string">
                                         <xs:enumeration value="rap"></xs:enumeration>
                                         <xs:enumeration value="pop"></xs:enumeration>
                                         <xs:enumeration value="folk"></xs:enumeration>
@@ -83,3 +83,4 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+</xs:schema>
