@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Nombre del equipo [único y no se puede repetir]
+o Tipo de trabajo (desarrollo de software, equipo de futbol, equipo de LOL...) [único y no se
+puede repetir]
+o Director del equipo [único y no se puede repetir]
+o Numero de éxitos y fracasos agrupados por años.
+o De cada integrante guardar el nombre, apellido, cargo, fecha nacimiento, ruta de la imagen,
+última hora a la que ha empezado a participar, última fecha que ha empezado .
+o De cada integrante guardar también mínimo un par de estadísticas según el tipo de trabajo
+(goles marcados, programas realizados, minions eliminados...) -->
+
+<equipos>
+    <equipo>
+        <nombre></nombre>
+        <tipo></tipo>
+        <director></director>
+        <numeros>
+            <exitos></exitos>
+            <fracasos></fracasos>
+        </numeros>
+        <integrantes>
+            <integrante>
+                <nombre></nombre>
+                <appellido></appellido>
+                <cargo></cargo>
+                <fechaNac></fechaNac>
+                <rutaImg></rutaImg>
+                <ultimahora></ultimahora>
+                <ultimafecha></ultimafecha>
+                <estadisticas>
+                    <programas></programas>
+                </estadisticas>
+            </integrante>
+        </integrantes>
+    </equipo>
+</equipos>
