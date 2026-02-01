@@ -17,7 +17,8 @@ ser: “vocalista”, “bajo”,” batería”.
 • Edad (un número entre 5 y 150, único y que no se puede repetir)
 • Nombre: (un texto entre 2 y 30 caracteres, único y no se puede repetir) -->
 
-<gruposMusica>
+<gruposMusica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="grupos.xsd">
     <grupo>
         <nombre>Coldplay</nombre>
         <genero>pop</genero>
@@ -37,7 +38,7 @@ ser: “vocalista”, “bajo”,” batería”.
                 <nombre>Guy Berryman</nombre>
                 <edad>46</edad>
             </integrante>
-            <integrante funcion="batería">
+            <integrante funcion="bateria">
                 <nombre>Will Champion</nombre>
                 <edad>44</edad>
             </integrante>
@@ -66,7 +67,7 @@ ser: “vocalista”, “bajo”,” batería”.
                 <nombre>Ben McKee</nombre>
                 <edad>37</edad>
             </integrante>
-            <integrante funcion="batería">
+            <integrante funcion="bateria">
                 <nombre>Daniel Platzman</nombre>
                 <edad>35</edad>
             </integrante>
