@@ -12,24 +12,42 @@ o De cada integrante guardar también mínimo un par de estadísticas según el 
 
 <equipos>
     <equipo>
-        <nombre></nombre>
-        <tipo></tipo>
-        <director></director>
-        <numeros>
-            <exitos></exitos>
-            <fracasos></fracasos>
-        </numeros>
+        <nombre>Develop</nombre>
+        <tipo>Desarrollo</tipo>
+        <director>Mathew McLean</director>
+        <años>
+            <año año="2025">
+                <exitos>13</exitos>
+                <fracasos>7</fracasos>
+            </año>
+            <año año="2024">
+                <exitos>9</exitos>
+                <fracasos>10</fracasos>
+            </año>
+        </años>
         <integrantes>
             <integrante>
-                <nombre></nombre>
-                <appellido></appellido>
-                <cargo></cargo>
-                <fechaNac></fechaNac>
-                <rutaImg></rutaImg>
-                <ultimahora></ultimahora>
-                <ultimafecha></ultimafecha>
+                <nombre>Laura</nombre>
+                <appellido>McKenna</appellido>
+                <cargo>Frontend</cargo>
+                <fechaNac>1992-08-07</fechaNac>
+                <rutaImg>/imagenes/laura.png</rutaImg>
+                <ultimahora>10:00:00</ultimahora>
+                <ultimafecha>2026-01-20</ultimafecha>
                 <estadisticas>
-                    <programas></programas>
+                    <programas>23</programas>
+                </estadisticas>
+            </integrante>
+            <integrante>
+                <nombre>Kylie</nombre>
+                <appellido>Smith</appellido>
+                <cargo>Backend</cargo>
+                <fechaNac>1999-09-27</fechaNac>
+                <rutaImg>/imagenes/kylie.png</rutaImg>
+                <ultimahora>12:30:00</ultimahora>
+                <ultimafecha>2026-01-26</ultimafecha>
+                <estadisticas>
+                    <programas>11</programas>
                 </estadisticas>
             </integrante>
         </integrantes>
