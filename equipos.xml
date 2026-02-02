@@ -36,7 +36,8 @@ xsi:noNamespaceSchemaLocation="equipos.xsd">
                 <ultimahora>10:00:00</ultimahora>
                 <ultimafecha>2026-01-20</ultimafecha>
                 <estadisticas>
-                    <programas>23</programas>
+                    <programasHechos>23</programasHechos>
+                    <programasEjec>3</programasEjec>
                 </estadisticas>
             </integrante>
             <integrante>
@@ -48,7 +49,8 @@ xsi:noNamespaceSchemaLocation="equipos.xsd">
                 <ultimahora>12:30:00</ultimahora>
                 <ultimafecha>2026-01-26</ultimafecha>
                 <estadisticas>
-                    <programas>11</programas>
+                    <programasHechos>11</programasHechos>
+                    <programasEjec>15</programasEjec>
                 </estadisticas>
             </integrante>
         </integrantes>

@@ -40,7 +40,8 @@
                                                     <xs:element name="estadisticas">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="programas" type="xs:integer"></xs:element>
+                                                                <xs:element name="programasHechos" type="xs:integer"></xs:element>
+                                                                <xs:element name="programasEjec" type="xs:integer"></xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
