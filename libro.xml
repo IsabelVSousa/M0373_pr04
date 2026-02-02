@@ -18,7 +18,5 @@ xsi:noNamespaceSchemaLocation="libro.xsd">
     <publicacion>1954-06-29</publicacion>
     <generos>
         <genero>Fantastico</genero>
-        <genero>Aventura</genero>
-        <genero>Romance</genero>
     </generos>
 </libro>

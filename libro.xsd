@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="libro"></xs:element>
-    <xs:complexType>
-        <xs:sequence>
-            <xs:element name="titulo">
-                <xs:complexType>
-                    <xs:simpleContent>
-                        <xs:extension base="xs:string">
-                            <xs:attribute name="edicion" type="xs:integer" />
-                        </xs:extension>
-                    </xs:simpleContent>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="escritores">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="escritor" type="xs:string" maxOccurs="unbounded" />
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="publicacion"></xs:element>
-            <xs:element name="generos">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="genero" type="xs:string" maxOccurs="unbounded" />
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
+    <xs:element name="libro">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titulo">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="edicion" type="xs:integer"></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="escritores">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="escritor" type="xs:string" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="publicacion" type="xs:date"></xs:element>
+                <xs:element name="generos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="genero" minOccurs="1" maxOccurs="unbounded">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Fantastico"></xs:enumeration>
+                                        <xs:enumeration value="Historico"></xs:enumeration>
+                                        <xs:enumeration value="Terro"></xs:enumeration>
+                                        <xs:enumeration value="Thriller"></xs:enumeration>
+                                        <xs:enumeration value="Humor"></xs:enumeration>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
-
-
-<!-- 
-
- -->
