@@ -29,7 +29,7 @@ xsi:noNamespaceSchemaLocation="equipos.xsd">
         <integrantes>
             <integrante>
                 <nombre>Laura</nombre>
-                <appellido>McKenna</appellido>
+                <apellido>McKenna</apellido>
                 <cargo>Frontend</cargo>
                 <fechaNac>1992-08-07</fechaNac>
                 <rutaImg>/imagenes/laura.png</rutaImg>
@@ -41,7 +41,7 @@ xsi:noNamespaceSchemaLocation="equipos.xsd">
             </integrante>
             <integrante>
                 <nombre>Kylie</nombre>
-                <appellido>Smith</appellido>
+                <apellido>Smith</apellido>
                 <cargo>Backend</cargo>
                 <fechaNac>1999-09-27</fechaNac>
                 <rutaImg>/imagenes/kylie.png</rutaImg>

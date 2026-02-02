@@ -12,26 +12,38 @@
                             <xs:element name="años">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="exitos" type="xs:integer"></xs:element>
-                                        <xs:element name="fracasos" type="xs:integer"></xs:element>
+                                        <xs:element name="año" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="exitos" type="xs:integer"></xs:element>
+                                                    <xs:element name="fracasos" type="xs:integer"></xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="año" type="xs:integer"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="año" type="xs:integer"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="integrantes">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="nombre" type="xs:string"></xs:element>
-                                        <xs:element name="apellido" type="xs:string"></xs:element>
-                                        <xs:element name="cargo" type="xs:string"></xs:element>
-                                        <xs:element name="fechaNac" type="xs:date"></xs:element>
-                                        <xs:element name="rutaImg" type="xs:string"></xs:element>
-                                        <xs:element name="ultimahora" type="xs:dateTime"></xs:element>
-                                        <xs:element name="ultimafecha" type="xs:date"></xs:element>
-                                        <xs:element name="estadisticas">
+                                        <xs:element name="integrante" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="programas" type="xs:integer"></xs:element>
+                                                    <xs:element name="nombre" type="xs:string"></xs:element>
+                                                    <xs:element name="apellido" type="xs:string"></xs:element>
+                                                    <xs:element name="cargo" type="xs:string"></xs:element>
+                                                    <xs:element name="fechaNac" type="xs:date"></xs:element>
+                                                    <xs:element name="rutaImg" type="xs:string"></xs:element>
+                                                    <xs:element name="ultimahora" type="xs:time"></xs:element>
+                                                    <xs:element name="ultimafecha" type="xs:date"></xs:element>
+                                                    <xs:element name="estadisticas">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="programas" type="xs:integer"></xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
