@@ -10,7 +10,8 @@ o De cada integrante guardar el nombre, apellido, cargo, fecha nacimiento, ruta 
 o De cada integrante guardar también mínimo un par de estadísticas según el tipo de trabajo
 (goles marcados, programas realizados, minions eliminados...) -->
 
-<equipos>
+<equipos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="equipos.xsd">
     <equipo>
         <nombre>Develop</nombre>
         <tipo>Desarrollo</tipo>
